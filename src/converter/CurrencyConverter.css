@@ -1,0 +1,60 @@
+.roundCorner {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 50vw;
+    height: 60vh;
+    min-height: 50vh;
+}
+
+.header {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: darkslateblue;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.inputRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.result,.error {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.error {
+    color: red
+}
+
+.buttonContainer {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+
+.inputAction, .label {
+    display: flex;
+    flex-grow: 1
+}
+
+.button {
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
